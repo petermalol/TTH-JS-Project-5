@@ -70,6 +70,8 @@ function modalWindowPopUp(item){
     //sets dob to a date instance for proper display format
     let dateOfBirth = new Date(item.dob.date);
 
+    //IMPORTANT!!!!! NEED TO format phone number correctly
+
     //template literal for the modal card
     let modalCard = `
     <div class="modal-container">
